@@ -1,7 +1,5 @@
 # GitHub
 VmTutes Git-Hub
-GitHub
-======
 
 1. What is Github
 2. Overview of github
@@ -26,14 +24,14 @@ Alternatives
 
 GitHub
 ------
-GitHub is a website and cloud-based service that helps developers store and manage their code, 
-as well as track and control changes to their code.
-@ is a website to upload repositories online
-@ Provides backup remotely
+GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code.
+- is a website to upload repositories online
+- Provides backup remotely
 
 Github account creation
 -----------------------
 Sign up https://github.com/
+
 Note :- how to create acc, steps are in "github installation folder" in google drive 
 
 Difference between git & github
@@ -50,56 +48,59 @@ GitHub PAT:- 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
 Difference with other tools
 ---------------------------
 	
-	@ it Provides nice visual interface to repo
-	@ makes user collaboration easier
-        @ security
-        @ 24/7 support
-        @ user friendly
-        @ flexibility
-        @ it provides backup for repo's
-        @ microsoft take over
+    @ it Provides nice visual interface to repo
+    @ makes user collaboration easier
+    @ security
+    @ 24/7 support
+    @ user friendly
+    @ flexibility
+    @ it provides backup for repo's
+    @ microsoft take over
 
-1. create repo in local machine and push to github
+create repo in local machine and push to github
 --------------------------------------------------
- 
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/VmTutes/hello.git
-git push -u origin master
-username:-
-password:- PAT Token
 
-Note:- to generate PAT token go to settings/developer settings/personal access token/classic/generate newtoken
+    @ git init
+    @ git add README.md
+    @ git commit -m "first commit"
+    @ git remote add origin https://github.com/VmTutes/hello.git
+    @ git push -u origin master
+    @ username:-
+    @ password:- PAT Token
 
-2. Clone existing repos from github
+Note:- to generate PAT token go to settings/developer-settings/personal-access-token/classic/generate-newtoken
+
+Clone existing repos from github
 -----------------------------------
-- clone existing repository from github to your local machine 
-    >> git clone https://github.com/VmTutes/Vinodh-Machireddy-Tutorials.git
-
-- change some data and add, commit
-- git push (or) git push origin master
+    @ clone existing repository from github to your local machine 
+    @ git clone https://github.com/VmTutes/Vinodh-Machireddy-Tutorials.git
+    @ change some data and add, commit
+    @ git push (or) git push origin master
 
 Managing tags remotely
 ----------------------
 to create tag
-  >> git tag <tag_name>
+
+    @  git tag <tag_name>
 
 push tags from local repo to github repo
-  >> git push origin --tags
+
+    @  git push origin --tags
 
 to delete tags remotely in github
-  >> git push origin -d <tag_name>
+
+    @  git push origin -d <tag_name>
 
 to delete tags locally
-  >> git tag -d <tag_name>
+
+    @  git tag -d <tag_name>
 
 fetch and pull differences
 --------------------------
 pull = fetch + merge
 
-fetch :- it just download the changes to local machine but it will not integerate.
-merge :- it integrates to local repo of git
+- fetch:- it just download the changes to local machine but it will not integerate.
+- merge:- it integrates to local repo of git
 
 workflow:-
 =========
@@ -129,6 +130,7 @@ Pullrequest
 Deleting and renaming GitHub Repos
 ----------------------------------
 go to repository settings page and rename, delete.
+
 https://github.com/VmTutes/Vinodh-Machireddy-Tutorials/settings
 	
 

@@ -1,0 +1,90 @@
+GitHub
+======
+
+1. What is Github/Bitbucket/Gitlab
+2. Overview of github
+3. Installation of ORS tools
+4. creating repositories 
+5. pushing repositories to remotely
+6. cloning repositories from remote to local
+7. Managing tags remotely
+8. fetch and pull differences
+9. Deleting Repos
+10. Forking Repos
+11. pull request
+
+Alternatives
+------------
+1. gitHub
+2. Bitbucket
+3. Gitlab
+...etc
+
+GitHub
+------
+GitHub is a website and cloud-based service that helps developers store and manage their code, 
+as well as track and control changes to their code.
+@ is a website to upload repositories online
+@ Provides backup remotely
+  
+
+diff b/n git & github
+-----------------------
+> git is a tool                                            -    github is a website (github.com)
+> git is Command line interface(CLI)                       -    github is Graphical user interface(GUI) 
+> we can't view data in bare repo         	           -    but we can view & do all actions in bare repo 
+> bare is bare only here                         	   -    but, bare repo you can convert into non-bare here   
+> here we are creating non-bare by cloning bare repo       -    but, directly we can create/init non-bare                                             
+> local                                           	   -    remotely  
+
+GitHub PAT:- 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
+
+Difference with other tools
+---------------------------
+	
+	@ it Provides nice visual interface to repo
+	@ makes user collaboration easier
+        @ security
+        @ 24/7 support
+        @ user friendly
+        @ flexibility
+        @ it provides backup for repo's
+        @ microsoft take over
+
+
+* Through browser you can create, or upload files into github
+* git clone https://github.com/VmTutes/Machi.git
+* change some data and add, commit
+* git push (or) git push origin master
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/VmTutes/hello.git
+git push -u origin master
+
+
+git remote add origin https://github.com/VmTutes/gitsample.git
+git push origin master
+
+
+workflow:-
+=========
+	     |		Add	       |	Commit	       |			      |	 	
+	     |------------------------>|---------------------->| 			      |  		       			      
+	     |----------------Commit -a ---------------------->|	  git push            |
+	     |			       |		       |----------------------------->|
+	Working Dir		     Index		Commiting Area 		      Remote Repository(GitHub)
+	(work space)  	  	   (Staging)	    	    (HEAD)			      | 	
+	     |			       |		       |<----------git fetch----------|
+	     |<-------------------Merge------------------------|			      |	
+	     |			       |		       |			      |	
+	     |<----------------------------------Pull-----------------------------------------|
+	     |<--------------------diff HEAD------------------>|			      |
+	     |<----------diff--------->|	
+
+   						   =========THE END=======
+			    VmTutes, +91-7204143230(WhatsApp/Call), Email:- Vinodh-Machireddy@VmTutes.com
+
+
+
